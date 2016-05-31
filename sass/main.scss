@@ -1,0 +1,17 @@
+body {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+@import "./lib/colors.scss";
+@import "./lib/nav.scss";
+@import "./lib/z-index.scss";
+@import "./lib/progress.scss";
+
+

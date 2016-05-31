@@ -1,0 +1,83 @@
+body {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-style: normal; }
+
+h1 {
+  font-weight: 600;
+  line-height: 1.3em; }
+
+.bg-blue {
+  background-color: #1c2034; }
+
+.bg-yellow {
+  background-color: #ffd738; }
+
+/* Navbar */
+.navbar {
+  background-color: #1c2034;
+  border: 0px;
+  border-radius: 0px;
+  min-height: 70px; }
+
+.navbar-default .navbar-brand {
+  height: 70px;
+  padding: 0px 0px 0px 20px;
+  font-size: 2.4em;
+  line-height: 2.25em;
+  color: #61baa2;
+  font-weight: 700; }
+
+.navbar-default .navbar-nav > li {
+  margin: 16px 9px; }
+
+.navbar-default .navbar-nav > li > a {
+  line-height: 26px;
+  padding: 6px 12px;
+  color: #fff; }
+
+.navbar-default .navbar-nav li.login > a {
+  background-color: #61baa2;
+  border-radius: 11px;
+  padding: 6px 28px;
+  color: #1c2034; }
+
+/* Progress bar */
+.pBar {
+  display: flex;
+  font-size: 1.6em;
+  font-weight: 600; }
+  .pBar > div {
+    display: inline-block;
+    width: 25%;
+    position: relative; }
+    .pBar > div:nth-child(1) {
+      z-index: 40; }
+    .pBar > div:nth-child(2) {
+      z-index: 30; }
+    .pBar > div:nth-child(3) {
+      z-index: 20; }
+    .pBar > div:nth-child(4) {
+      z-index: 10; }
+  .pBar > div div {
+    margin: 10px 10px 10px 40px; }
+  .pBar .bg-blue {
+    color: #fff; }
+
+.arrow:after, .arrow:before {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  left: 100%;
+  position: absolute;
+  width: 0; }
+
+.arrow:after {
+  border-width: 26px;
+  top: 0px; }
+
+.arrow.bg-blue:after {
+  border-left-color: #1c2034; }
+
+.arrow.bg-yellow:after {
+  border-left-color: #ffd738; }

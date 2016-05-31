@@ -1,0 +1,53 @@
+/* Progress bar */
+.pBar {
+  display: flex;
+  font-size: 1.6em;
+  font-weight: 600;
+  >div {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    &:nth-child(1) {z-index: $z-layer-4}
+    &:nth-child(2) {z-index: $z-layer-3}
+    &:nth-child(3) {z-index: $z-layer-2}
+    &:nth-child(4) {z-index: $z-layer-1}
+  }
+  >div div {
+    margin: 10px 10px 10px 40px;
+  }
+  .yellow {
+  }
+  .bg-blue {
+    color: #fff;
+  }
+}
+
+.arrow:after, .arrow:before {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  left: 100%;
+  position: absolute;
+  width: 0;
+}
+
+.arrow:after {
+  border-width: 26px;
+  top: 0px;
+}
+
+.arrow.bg-blue:after {
+    border-left-color: $blue;
+}
+
+.arrow.bg-yellow:after {
+    border-left-color: $yellow;
+}
+
+
+
+// .arrow:before {
+//   border-width: 14px;
+//   border-left-color: #333;
+//   top: 10px;
+// }
