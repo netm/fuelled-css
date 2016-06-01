@@ -9,9 +9,20 @@ h1 {
   line-height: 1.3em;
 }
 
+h2 {
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+hr {
+  margin: 40px 0;
+}
+
 @import "./lib/colors.scss";
 @import "./lib/nav.scss";
 @import "./lib/z-index.scss";
 @import "./lib/progress.scss";
+@import "./lib/form.scss";
+@import "./lib/footer.scss";
 
 

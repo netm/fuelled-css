@@ -1,0 +1,23 @@
+.form-wrap {
+  background-color: $blue;
+  padding: 10% 23%;
+  h1, h2 {
+    margin-bottom: 30px;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: none;
+}
+
+input.form-control {
+  border-radius: 0px;
+}
+
+.button-group {
+  margin: 30px 10%;
+}

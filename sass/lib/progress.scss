@@ -5,8 +5,10 @@
   font-weight: 600;
   >div {
     display: inline-block;
+    height: 52px;
     width: 25%;
     position: relative;
+    
     &:nth-child(1) {z-index: $z-layer-4}
     &:nth-child(2) {z-index: $z-layer-3}
     &:nth-child(3) {z-index: $z-layer-2}
@@ -32,8 +34,23 @@
 }
 
 .arrow:after {
+  border-width: 24px;
+  top: 2px;
+}
+
+:nth-child(4).arrow:after {
   border-width: 26px;
   top: 0px;
+}
+
+:nth-child(1),
+:nth-child(2),
+:nth-child(3) {
+  &.arrow:before {
+    border-width: 26px;
+    border-left-color: #fff;
+    top: 0px;
+  }
 }
 
 .arrow.bg-blue:after {
@@ -43,11 +60,3 @@
 .arrow.bg-yellow:after {
     border-left-color: $yellow;
 }
-
-
-
-// .arrow:before {
-//   border-width: 14px;
-//   border-left-color: #333;
-//   top: 10px;
-// }
