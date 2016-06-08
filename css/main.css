@@ -1,24 +1,11 @@
-body {
-  font-family: Open Sans;
-  font-weight: 300;
-  font-style: normal; }
-
-h1 {
-  font-weight: 600;
-  line-height: 1.3em; }
-
-h2 {
-  font-weight: 600;
-  line-height: 1.2em; }
-
-hr {
-  margin: 40px 0; }
-
 .bg-blue {
   background-color: #1c2034; }
 
 .bg-yellow {
   background-color: #ffd738; }
+
+.bg-grey {
+  background-color: #777b84; }
 
 .color-white {
   color: #fff; }
@@ -60,6 +47,21 @@ hr {
   padding: 6px 28px;
   color: #1c2034; }
 
+.m-top-10 {
+  margin-top: 10px; }
+
+.m-top-20 {
+  margin-top: 20px; }
+
+.m-top-30 {
+  margin-top: 30px; }
+
+.m-top-40 {
+  margin-top: 40px; }
+
+.m-top-50 {
+  margin-top: 50px; }
+
 /* Progress bar */
 .pBar {
   display: flex;
@@ -80,7 +82,7 @@ hr {
       z-index: 10; }
   .pBar > div div {
     margin: 10px 10px 10px 40px; }
-  .pBar .bg-blue {
+  .pBar .bg-blue, .pBar .bg-grey {
     color: #fff; }
 
 .arrow:after, .arrow:before {
@@ -112,11 +114,19 @@ hr {
 .arrow.bg-yellow:after {
   border-left-color: #ffd738; }
 
+.arrow.bg-grey:after {
+  border-left-color: #777b84; }
+
 .form-wrap {
-  background-color: #1c2034;
-  padding: 10% 23%; }
+  background-color: #1c2034; }
   .form-wrap h1, .form-wrap h2 {
     margin-bottom: 30px; }
+  .form-wrap legend {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    border-bottom: 0px;
+    text-align: left; }
 
 .form-group {
   margin-bottom: 20px; }
@@ -124,11 +134,21 @@ hr {
 label {
   display: none; }
 
+.checkbox label {
+  display: inline-block;
+  color: #fff; }
+
 input.form-control {
   border-radius: 0px; }
 
 .button-group {
   margin: 30px 10%; }
+
+.login .form-wrap {
+  padding: 10% 23%; }
+
+.signup .form-wrap {
+  padding: 7% 10%; }
 
 .fuel-modal .modal-dialog {
   width: 70%; }
@@ -145,3 +165,25 @@ input.form-control {
   padding-top: 25px;
   padding-bottom: 25px;
   color: #fff; }
+
+body {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-style: normal; }
+
+h1 {
+  font-weight: 600;
+  line-height: 1.3em; }
+
+h2 {
+  font-weight: 600;
+  line-height: 1.2em; }
+
+hr {
+  margin: 40px 0; }
+
+a, a:hover, a:visited {
+  color: #61baa2; }
+
+.tiny {
+  font-size: 11px; }

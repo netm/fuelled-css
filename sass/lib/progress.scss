@@ -17,9 +17,7 @@
   >div div {
     margin: 10px 10px 10px 40px;
   }
-  .yellow {
-  }
-  .bg-blue {
+  .bg-blue, .bg-grey {
     color: #fff;
   }
 }
@@ -59,4 +57,8 @@
 
 .arrow.bg-yellow:after {
     border-left-color: $yellow;
+}
+
+.arrow.bg-grey:after {
+    border-left-color: $grey;
 }
