@@ -2,6 +2,7 @@
 @import "./lib/nav.scss";
 @import "./lib/z-index.scss";
 @import "./lib/spacing.scss";
+@import "./lib/components.scss";
 @import "./lib/progress.scss";
 @import "./lib/form.scss";
 @import "./lib/modal.scss";
@@ -11,6 +12,7 @@ body {
   font-family: Open Sans;
   font-weight: 300;
   font-style: normal;
+  color: $blue;
 }
 
 h1 {

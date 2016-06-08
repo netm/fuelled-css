@@ -15,3 +15,7 @@
 
 - npm install
 - gulp sass or gulp sass:watch for the watcher
+
+## Gwilym todo
+
+- Add http://zellwk.com/blog/nunjucks-with-gulp/

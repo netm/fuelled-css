@@ -4,11 +4,17 @@
 .bg-yellow {
   background-color: #ffd738; }
 
+.bg-light-grey {
+  background-color: #e7e7e9; }
+
 .bg-grey {
   background-color: #777b84; }
 
 .color-white {
   color: #fff; }
+
+.color-blue {
+  color: #1c2034; }
 
 .btn-green {
   background-color: #61baa2;
@@ -23,7 +29,8 @@
   background-color: #1c2034;
   border: 0px;
   border-radius: 0px;
-  min-height: 70px; }
+  min-height: 70px;
+  margin-bottom: 0px; }
 
 .navbar-default .navbar-brand {
   height: 70px;
@@ -47,6 +54,20 @@
   padding: 6px 28px;
   color: #1c2034; }
 
+/* Dash tabs */
+.dash li {
+  width: 25%;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600; }
+  .dash li a, .dash li a:visited, .dash li a:hover {
+    color: #1c2034;
+    padding: 20px 25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #ffd738; }
+  .dash li .nav > li > a {
+    padding: 20px 25px; }
+
 .m-top-10 {
   margin-top: 10px; }
 
@@ -61,6 +82,10 @@
 
 .m-top-50 {
   margin-top: 50px; }
+
+.infoText {
+  padding: 10px 30px 40px;
+  border: 1px solid #1c2034; }
 
 /* Progress bar */
 .pBar {
@@ -169,7 +194,8 @@ input.form-control {
 body {
   font-family: Open Sans;
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+  color: #1c2034; }
 
 h1 {
   font-weight: 600;
