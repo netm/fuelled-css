@@ -190,6 +190,9 @@ input.form-control {
   padding-top: 25px;
   padding-bottom: 25px;
   color: #fff; }
+  .footer h4 {
+    font-size: 16px;
+    font-weight: 600; }
 
 body {
   font-family: Open Sans;
