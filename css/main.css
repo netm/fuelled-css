@@ -27,6 +27,10 @@ hr {
   background-color: #61baa2;
   border: 0; }
 
+.btn-yellow {
+  background-color: #ffd738;
+  border: 0; }
+
 /* Navbar */
 .navbar {
   background-color: #1c2034;
@@ -125,6 +129,16 @@ input.form-control {
 
 .button-group {
   margin: 30px 10%; }
+
+.fuel-modal .modal-dialog {
+  width: 70%; }
+
+.fuel-modal .modal-content {
+  border-radius: 0px;
+  padding: 3% 10% 6%; }
+
+.fuel-modal .buttons {
+  margin-top: 50px; }
 
 .footer {
   background-color: #1c2034;

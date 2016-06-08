@@ -1,6 +1,8 @@
 $blue: rgb(28,32,52);
 $yellow: rgb(255,215,56);
 $green: rgb(97,186,162);
+$midGrey: rgb(165,165,173);
+$darkGrey: rgb(115,123,132);
 
 .bg-blue {
   background-color: $blue;
@@ -16,5 +18,10 @@ $green: rgb(97,186,162);
 
 .btn-green {
   background-color: $green;
+  border: 0;
+}
+
+.btn-yellow {
+  background-color: $yellow;
   border: 0;
 }
