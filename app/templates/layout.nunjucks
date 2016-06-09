@@ -9,6 +9,8 @@
 </head>
 <body>
 
+  {% include "partials/nav.nunjucks" %}
+
   <!-- You write code for this content block in another file -->
   {% block content %} {% endblock %}
 
