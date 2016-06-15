@@ -5,6 +5,7 @@
 @import "./lib/components.scss";
 @import "./lib/progress.scss";
 @import "./lib/form.scss";
+@import "./lib/table.scss";
 @import "./lib/modal.scss";
 @import "./lib/footer.scss";
 
@@ -22,7 +23,8 @@ h1 {
 
 h2 {
   font-weight: 600;
-  line-height: 1.2em;
+  font-size: 1.7em;
+  line-height: 2.1em;
 }
 
 hr {

@@ -96,19 +96,69 @@
 			  <div class="tab-content">
 
 			    <div role="tabpanel" class="tab-pane active" id="debtors">
-			    	<div class="col-md-8 infoText m-top-40">
-			    		<h2>Choose and invoice to turn into working capital</h2>
-			    		Info text
+			    	<div class="col-md-8">
+							<div class="infoText m-top-40">
+								<h2>Choose an invoice to turn into working capital</h2>
+								<p>Info text</p>
+							</div>
 			    	</div>
+
+						<div class="col-md-12">
+							<h2>Your Qualified Invoices</h2>
+
+							<table class="table fuelledTable">
+								<thead>
+									<th><input type="checkbox" name="check" value="box"></th>
+									<th>DEBTOR</th>
+									<th>INVOICE VALUE</th>
+									<th>INVOICE NO.</th>
+									<th>DUE DATE</th>
+									<th>XERO STATUS</th>
+									<th>ADVANCE</th>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td><input type="checkbox" name="check" value="box"></td>
+										<td>Trade & Spout</td>
+										<td>$10,000</td>
+										<td>INV-1028</td>
+										<td>01/01/16</td>
+										<td>Authorised</td>
+										<td>$8,000</td>
+									</tr>
+									<tr class="greenRow">
+										<td><input type="checkbox" name="check" value="box"></td>
+										<td>Garden Warehouse</td>
+										<td>$5,000</td>
+										<td>INV-1028</td>
+										<td>01/01/16</td>
+										<td>Pending</td>
+										<td>$2,000</td>
+									</tr>
+									<tr class="demotedRow">
+										<td>&nbsp</td>
+										<td>Palms Garden</td>
+										<td>$510</td>
+										<td>INV-1028</td>
+										<td>01/01/16</td>
+										<td>Submitted</td>
+										<td>$510</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+
 			    </div>
 
 			    <div role="tabpanel" class="tab-pane" id="quotes">
 			    	<div class="col-md-8 infoText m-top-40">
-			    		<h2>Choose and invoice to turn into working capital</h2>
+			    		<h2>Choose an invoice to turn into working capital</h2>
 			    		Info text
 			    	</div>
 			    </div>
-			    
+
 			    <div role="tabpanel" class="tab-pane" id="activity">...</div>
 			    <div role="tabpanel" class="tab-pane" id="account">...</div>
 			  </div>
